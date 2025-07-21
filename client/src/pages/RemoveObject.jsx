@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RemoveObject = () => {
+const   RemoveObject = () => {
   return (
     <div>RemoveObject</div>
   )

@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/ai" element={<Layout />}>
           <Route index element={<Dashboad />} />
-          <Route path="write-ariticle" element={<Writearitcle />} />
+          <Route path="write-article" element={<Writearitcle />} />
           <Route path="blog-titles" element={<BlogTitles />} />
           <Route path="generative-images" element={<GenratedImages />} />
           <Route path="remove-background" element={<Removebackground />} />
