@@ -59,7 +59,8 @@ const Writearitcle = () => {
         <br />{" "}
         <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-br from-[#226bff] to-[#65adff] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer">
           <Edit className="w-5" />
-          Generate article
+          Generate 
+          
         </button>
       </form>
 
