@@ -63,14 +63,15 @@ const GenratedImages = () => {
 
         <div className="flex items-center gap-2 my-6">
           <label className="relative cursor-pointer">
-            <input type="checkbox" onChange={(e)=>setPublished(e.target.value)}
+            <input type="checkbox" onChange={(e)=>setPublished(e.target.checked)}
             checked={Published} className="sr-only peer" />
             <div className="w-9 h-5 bg-slate-300 rounded-full peer-checked:bg-green-500 transition"></div>
             <span className="absolute left-1 top-1 w-3 h-3 bg-white rounded-full transition peer-checked:translate-x-4"></span>
           </label>
+          <p className="text-sm">Make this image Public</p>
 
         </div>
-        <br />
+    
         <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-br from-[#00ad25] to-[#04ff50] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer">
           <Image className="w-5" />
           Generate Image
